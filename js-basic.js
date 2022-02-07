@@ -575,37 +575,37 @@ comment
 
  //1. Create and array of 50 random numbers from 1 to 100, Dynamically
 
- const numArg = [];
- const min = 1;
- const max = 100;
- const argSize = 50;
+//  const numArg = [];
+//  const min = 1;
+//  const max = 100;
+//  const argSize = 50;
  
  
- const randomNum = () => {
-   return Math.floor(Math.random() * max + 1)
- }
+//  const randomNum = () => {
+//    return Math.floor(Math.random() * max + 1)
+//  }
  
- for (let i = min; i <= argSize; i++){
-   const num = randomNum()
-   numArg.push(num)
- }
+//  for (let i = min; i <= argSize; i++){
+//    const num = randomNum()
+//    numArg.push(num)
+//  }
 
  //2. remove the duplicate value
 
- const uniqueArg = []
+//  const uniqueArg = []
 
- for(let i = 0; i < numArg.length; i++){
-   const num = numArg[i]
+//  for(let i = 0; i < numArg.length; i++){
+//    const num = numArg[i]
  
-   if(!uniqueArg.includes(num)){
+//    if(!uniqueArg.includes(num)){
      
-     uniqueArg.push(num)
-   } else {
-     console.log(num, "Already exists")
-   }
- }
+//      uniqueArg.push(num)
+//    } else {
+//      console.log(num, "Already exists")
+//    }
+//  }
  
- console.log(numArg.sort(), uniqueArg.sort(), uniqueArg.length)
+//  console.log(numArg.sort(), uniqueArg.sort(), uniqueArg.length)
 
  //1. create an array of 50 from 1 to 100 unique random numbers
 
@@ -619,4 +619,37 @@ comment
 //  }
 //  hey();
 
+console.log("hey");
 
+
+// const sub5 = (num) =>{
+//   return num - 5;
+// }
+
+// const add = (a, b) => {
+//   const total = a + b;
+
+//   const ttl = sub5(total)
+//   return ttl;
+// }
+
+// const result = add(5, 4)
+
+//  console.log(result);
+
+// debugger;
+
+// let i = 0;
+// const a = () => {
+//   i++;
+//   console.log(i);
+//   a()
+// };
+
+// a();
+
+console.log("first");
+
+setTimeout(() => {
+  console.log("second");
+}, 0)
